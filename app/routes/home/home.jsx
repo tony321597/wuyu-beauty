@@ -103,8 +103,16 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="作品集"
-        description="我可愛的寶寶們"
+        title="美學常識小百科"
+        description={
+    <>
+      • 霧眉、霧唇、眼線都屬於「半永久彩妝」，會在皮膚留下細小傷口，所以術前評估、衛生與術後照護都要用「微創醫療」的標準來思考。
+      <br />
+      • 台灣目前對紋繡技術的法規仍不算完整，選擇有專業訓練與良好衛生流程的店家，是保護客人的第一道防線。
+      <br />
+      • 有關「術前評估與準備」、「術後照護」、「常見風險與迷思」想了解更多，請點下面連結。
+    </>
+  }
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
@@ -124,7 +132,7 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
+        title="最新消息"
         description="Design and development for a video game tracking app built in React Native"
         buttonText="View website"
         buttonLink="https://gamestack.hamishw.com"
