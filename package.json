@@ -63,11 +63,6 @@
     "vite-jsconfig-paths": "^2.0.1",
     "wrangler": "^3.24.0"
   },
-  "overrides": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@remix-run/react": "2.7.1"
-  },
   "engines": {
     "node": ">=19.9.0"
   }

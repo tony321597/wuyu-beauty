@@ -103,8 +103,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="我的作品"
+        description="我可愛的寶寶們"
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{

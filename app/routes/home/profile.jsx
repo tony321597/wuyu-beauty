@@ -1,4 +1,4 @@
-import profileImgLarge from '~/assets/profile-large.jpg';
+import profileImgLarge from '~/assets/517-1.jpeg';
 import profileImgPlaceholder from '~/assets/profile-placeholder.jpg';
 import profileImg from '~/assets/profile.jpg';
 import { Button } from '~/components/button';
@@ -21,16 +21,21 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m hanna, currently I live in Keelung working as a Cosmetologist at{' '}
+      <Link href="https://maps.app.goo.gl/PS7GLVSnaERcYYwu7?g_st=ipc">地圖</Link><br/> 
+                  個人經歷：<br/>
+                  國家乙級美容證照<br/>
+                  國家丙級美容證照<br/>
+                  二級紋繡師證照<br/>
+                  2024中華奧林匹克盃紋繡評審<br/>
+                  🏆2024中華奧林匹克時尚唇模塊-冠軍<br/>
+                  🏆2024TINA半永久靜態眼線-季軍<br/>
+                  🏆2023TSIA國際靜態紋繡霧眉-冠軍<br/>
+                  🏆2023亞太盃靜態霧眉-季軍<br/>  <Link href="https://www.facebook.com/wuyoubeauty?locale=zh_TW">臉書facebook</Link>
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      如果想更深了解美學相關知識請點我{' '}
+      <Link href="/projects/volkihar-knight">美學常識</Link><br/> 預約請跟我聯繫
     </Text>
   </Fragment>
 );
