@@ -84,6 +84,10 @@
   &[data-hidden='true'] {
     opacity: 0;
   }
+
+  &:last-child {
+    margin-top: var(--spaceL);
+  }
 }
 
 @keyframes introTextReveal {
@@ -133,10 +137,8 @@
     will-change: transform;
   }
 
-  &[data-plus='true']::before {
-    content: '+';
-    margin-right: 10px;
-    opacity: 0.4;
+  &[data-plus='true'] {
+    font-size: calc(var(--fontSizeH0) * 0.35);
   }
 
   &[data-status='entering'] {

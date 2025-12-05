@@ -1,12 +1,12 @@
-import phoneTexture2Large from '~/assets/gamestack-list-large.jpg';
+import phoneTexture2Large from '~/assets/促銷-1.png';
 import phoneTexture2Placeholder from '~/assets/gamestack-list-placeholder.jpg';
 import phoneTexture2 from '~/assets/gamestack-list.jpg';
-import phoneTextureLarge from '~/assets/gamestack-login-large.jpg';
+import phoneTextureLarge from '~/assets/促銷-2.jpg';
 import phoneTexturePlaceholder from '~/assets/gamestack-login-placeholder.jpg';
 import phoneTexture from '~/assets/gamestack-login.jpg';
-import laptopTexture from '~/assets/三處-1.jpeg';
-import laptopTextureLarge from '~/assets/三處-1.jpeg';
-import laptopTexturePlaceholder from '~/assets/三處-1.jpeg';
+import laptopTexture from '~/assets/三處-1.png';
+import laptopTextureLarge from '~/assets/三處-1.png';
+import laptopTexturePlaceholder from '~/assets/三處-1.png';
 import { Model } from '~/components/model';
 import { StoryContainer } from '../../../.storybook/story-container';
 import { deviceModels } from './device-models';

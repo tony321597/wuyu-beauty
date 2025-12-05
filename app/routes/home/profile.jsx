@@ -21,8 +21,8 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m hanna, currently I live in Keelung working as a Cosmetologist at{' '}
-      <Link href="https://maps.app.goo.gl/PS7GLVSnaERcYYwu7?g_st=ipc">地圖</Link><br/> 
+      我們位於基隆市，擁有迷人港灣風光，豐富海鮮美食與傳統廟口文化，依山傍海環境優美，是北台灣重要海港城市。這是我們的變美小基地～輕鬆一趟喚醒最好自己。{' '}
+      <Link href="https://maps.app.goo.gl/PS7GLVSnaERcYYwu7?g_st=ipc">點我看地圖</Link><br/> <br/>
                   個人經歷：<br/>
                   國家乙級美容證照<br/>
                   國家丙級美容證照<br/>

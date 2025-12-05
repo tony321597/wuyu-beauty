@@ -396,6 +396,15 @@ const Device = ({
 
       modelGroup.current.add(gltf.scene);
 
+      // Apply optional scale (e.g., to enlarge phone models)
+      if (model.scale) {
+        try {
+          gltf.scene.scale.setScalar(model.scale);
+        } catch (e) {
+          // ignore if scale cannot be applied
+        }
+      }
+
       gltf.scene.traverse(async node => {
         if (node.material) {
           node.material.color = new Color(0x1f2025);
