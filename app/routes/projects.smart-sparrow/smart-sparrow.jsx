@@ -18,7 +18,7 @@ import imageSprDesignSystemLightPlaceholder from '~/assets/spr-design-system-lig
 import imageSprDesignSystemLight from '~/assets/spr-design-system-light.png';
 import imageSprLessonBuilderDarkLarge from '~/assets/三處-1.jpeg';
 import imageSprLessonBuilderDarkPlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
-import imageSprLessonBuilderDark from '~/assets/spr-lesson-builder-dark.jpg';
+import imageSprLessonBuilderDark from '~/assets/三處-1.jpeg';
 import imageSprLessonBuilderLightLarge from '~/assets/spr-lesson-builder-light-large.jpg';
 import imageSprLessonBuilderLightPlaceholder from '~/assets/spr-lesson-builder-light-placeholder.jpg';
 import imageSprLessonBuilderLight from '~/assets/spr-lesson-builder-light.jpg';
