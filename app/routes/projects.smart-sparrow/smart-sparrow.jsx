@@ -16,7 +16,7 @@ import imageSprDesignSystemDark from '~/assets/spr-design-system-dark.png';
 import imageSprDesignSystemLightLarge from '~/assets/spr-design-system-light-large.png';
 import imageSprDesignSystemLightPlaceholder from '~/assets/spr-design-system-light-placeholder.png';
 import imageSprDesignSystemLight from '~/assets/spr-design-system-light.png';
-import imageSprLessonBuilderDarkLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
+import imageSprLessonBuilderDarkLarge from '~/assets/三處-1.jpeg';
 import imageSprLessonBuilderDarkPlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import imageSprLessonBuilderDark from '~/assets/spr-lesson-builder-dark.jpg';
 import imageSprLessonBuilderLightLarge from '~/assets/spr-lesson-builder-light-large.jpg';
@@ -70,7 +70,7 @@ const EarthSection = lazy(() =>
   import('./earth').then(module => ({ default: module.EarthSection }))
 );
 
-const title = '我的作品';
+const title = '作品集';
 const description =
   'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
 const roles = [

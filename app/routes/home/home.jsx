@@ -7,7 +7,7 @@ import gamestackTexture from '~/assets/gamestack-login.jpg';
 import sliceTextureLarge from '~/assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceTexture from '~/assets/slice-app.jpg';
-import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
+import sprTextureLarge from '~/assets/三處-1.jpeg';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
 import { Footer } from '~/components/footer';
@@ -103,7 +103,7 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="我的作品"
+        title="作品集"
         description="我可愛的寶寶們"
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
